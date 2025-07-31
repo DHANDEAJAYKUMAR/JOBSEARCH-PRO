@@ -54,13 +54,11 @@ npm install
 npm run dev
 ```
 **Note**: Create .env file with the following:
-VITE_CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key
 ```
 VITE_SUPABASE_URL=your_supabase_url
 VITE_SUPABASE_ANON_KEY=your_anon_key
 VITE_CLERK_PUBLISHABLE_KEY=Your_Publishable_key
 
-</prev>
 ```
 ## Usage
 <ul>
@@ -75,8 +73,37 @@ VITE_CLERK_PUBLISHABLE_KEY=Your_Publishable_key
 jobsearch-pro/
 
 <pre>
-  jobsearch-pro/ │ ├── public/ # Static assets like index.html, favicon, etc. │ ├── src/ # Core source directory │ ├── api/ # API interaction and service layers │ ├── components/ # Reusable UI components │ ├── data/ # Static data or config data │ ├── hooks/ # Custom React hooks (data fetching, auth, etc.) │ ├── layout/ # Layouts like Navbar, Footer, AppShell │ ├── lib/ # Supabase, Clerk, and Sentry client logic │ ├── pages/ # Route components (Home, Jobs, Apply, etc.) │ ├── utils/ # Utility functions/helpers │ ├── App.jsx # Main root component with routing │ ├── main.jsx # App entry point │ ├── index.css # Tailwind base styles │ ├── app.css # Custom app styles │ ├── .eslintrc.cjs # ESLint config ├── .gitignore # Git ignore rules ├── components.json # UI Component registry ├── index.html # Root HTML file ├── jsconfig.json # JS project configuration ├── package.json # Project metadata and scripts ├── package-lock.json / yarn.lock # Dependency lock files ├── postcss.config.js # PostCSS config for Tailwind ├── tailwind.config.js # Tailwind configuration ├── vite.config.js # Vite bundler configuration ├── vercel.json # Deployment configuration for Vercel
+jobsearch-pro/
+│
+├── public/                     # Static assets like index.html, favicon, etc.
+│
+├── src/                        # Core source directory
+│   ├── api/                    # API interaction and service layers
+│   ├── components/             # Reusable UI components
+│   ├── data/                   # Static data or config data
+│   ├── hooks/                  # Custom React hooks (data fetching, auth, etc.)
+│   ├── layout/                 # Layouts like Navbar, Footer, AppShell
+│   ├── lib/                    # Supabase, Clerk, and Sentry client logic
+│   ├── pages/                  # Route components (Home, Jobs, Apply, etc.)
+│   ├── utils/                  # Utility functions/helpers
+│   ├── App.jsx                 # Main root component with routing
+│   ├── main.jsx                # App entry point
+│   ├── index.css               # Tailwind base styles
+│   ├── app.css                 # Custom app styles
+│
+├── .eslintrc.cjs               # ESLint config
+├── .gitignore                  # Git ignore rules
+├── components.json             # UI Component registry
+├── index.html                  # Root HTML file
+├── jsconfig.json               # JS project configuration
+├── package.json                # Project metadata and scripts
+├── package-lock.json / yarn.lock  # Dependency lock files
+├── postcss.config.js           # PostCSS config for Tailwind
+├── tailwind.config.js          # Tailwind configuration
+├── vite.config.js              # Vite bundler configuration
+├── vercel.json                 # Deployment configuration for Vercel
 </pre>
+
 
 ## **Live Demo**
 <p>Try it Live Here → <a href="https://jobsearch-pro.vercel.app/">https://jobsearch-pro.vercel.app/</a></p>
@@ -86,7 +113,8 @@ jobsearch-pro/
 
 ## Future Improvements
 <ul> 
-  <li>Admin Panel for Approving/Rejecting Job Listings</li>
-  <li>Email Notifications and Reminders</li> <li>Resume Parsing for Smart Application</li> <li>PWA Support for Mobile Use</li>
+  <li>Email Notifications and Reminders</li> 
+  <li>Resume Parsing for Smart Application</li> 
+  <li>PWA Support for Mobile Use</li>
   <li>Company Reviews and Ratings</li>
 </ul>
