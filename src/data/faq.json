@@ -1,0 +1,26 @@
+[
+  {
+    "question": "What is JobSearch Pro?",
+    "answer": "JobSearch Pro is an innovative job portal platform designed to connect top talent with leading companies. It offers a seamless experience for both job seekers and employers through intuitive navigation, smart matching, and secure user management."
+  },
+  {
+    "question": "How do I post a job?",
+    "answer": "Employers can easily post jobs by logging in and heading to the 'Post Job' section. Simply enter the required job details and submit to instantly reach thousands of potential candidates."
+  },
+  {
+    "question": "How can I search for jobs?",
+    "answer": "Job seekers can explore opportunities by using filters like job title, location, industry, and experience level through our dynamic search functionality, accessible from the homepage or job listings page."
+  },
+  {
+    "question": "How do I apply for a job?",
+    "answer": "To apply, click on any job listing to view the full description and hit the 'Apply Now' button. You’ll be prompted to upload your resume and any necessary details for a smooth application process."
+  },
+  {
+    "question": "Can I save jobs to apply later?",
+    "answer": "Absolutely! Users can bookmark jobs they’re interested in by selecting the 'Save Job' option. These saved listings are stored under your profile for easy access anytime."
+  },
+  {
+    "question": "How do I track my job applications?",
+    "answer": "Your application history and current statuses can be monitored directly from your dashboard under the 'My Applications' section, keeping you informed every step of the way."
+  }
+]
