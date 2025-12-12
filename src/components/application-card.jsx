@@ -26,15 +26,17 @@ const ApplicationCard = ({ application, isCandidate = false }) => {
     link.click();
   };
 
+  // Pass both job_id and candidate_id to the hook
   const { loading: loadingHiringStatus, fn: fnHiringStatus } = useFetch(
     updateApplicationStatus,
     {
       job_id: application.job_id,
+      candidate_id: application.candidate_id,
     }
   );
 
   const handleStatusChange = (status) => {
-    fnHiringStatus(status).then(() => fnHiringStatus());
+    fnHiringStatus(status); // This will update the correct row
   };
 
   return (
